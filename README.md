@@ -45,7 +45,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dd>Sourav G Yallur</dd>
 <dt>SRN</dt>
 <dd>Your SRN:02fe23bcs127</dd>
-<dt>Course Instructor:MANSI MAM AND SHANKAR B Sir</dt>
+<dt>Course Instructor:Miss.MANSI MAM AND prof SHANKAR B Sir</dt>
 <dd>Instructor Name Placeholder:</dd>
 <dt>University</dt>
 <dd>Your University Name:KLE TECHNOLOGICAL UNIVERSITY</dd>
