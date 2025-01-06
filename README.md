@@ -90,3 +90,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <br> 
 > “The only way to do great work is to love what you do.” – Steve Jobs
 >
+[About Me](about.md)
+# About Me 
+Hey, this is me! 
+Major of Computer Science at KLE TECH!
