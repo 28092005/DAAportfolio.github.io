@@ -1,0 +1,4 @@
+title: E-Commerce Inventory Management System 
+description: An E-commerce Inventory Management System consists of four key modules: **Product Management** to organize and track product details, **Stock Management** to monitor inventory levels and ensure availability, **Order Management** to streamline the processing and fulfillment of customer orders, and **Report & Analytics** to provide insights into sales trends, stock performance, and demand forecasting.
+These modules work together to enhance operational efficiency, reduce errors, and improve decision-making. The system offers real-time data updates, ensuring accurate inventory tracking and timely order fulfillment. Ultimately, it helps optimize stock levels and boosts customer satisfaction.
+theme: jekyll-theme-cayman
