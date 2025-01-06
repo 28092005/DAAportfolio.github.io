@@ -10,9 +10,9 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 
 ## 🚀 Skills
-- C++, Python, JavaScript
+- C++, Python, JavaScript,C,HTML
 - Data Structures and Algorithms
-- Web Development (React.js, Node.js)
+- Web Development (DBMS)
 
 ## 🌐 Find Me Online
 - [GitHub](https://github.com/28092005)
