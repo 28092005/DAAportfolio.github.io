@@ -1,41 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventory Management System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
-        .description {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .description h2 {
-            color: #333;
-        }
-        .description p {
-            color: #555;
-            line-height: 1.6;
-        }
-    </style>
-</head>
+
 <body>
     <div class="container">
         <img src="image.png" alt="E-commerce Inventory Management">
