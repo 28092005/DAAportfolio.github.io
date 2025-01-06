@@ -41,6 +41,7 @@
 #include <ctime>    // For working with dates
 #include <stdexcept>
 #include <unordered_map>
+#include<conio.h>
 //------------------------------------------------------------------------
 
 // ATTRIBUTS TO ADD COLOURS AND MAKING IT DYNAMIC.
@@ -296,20 +297,38 @@ void printColor(const string &text, const string &color)
 
 // Simple login function to simulate a login page
 
+
 bool login()
 {
     string username, password;
     const string correctUsername = "admin";  // Example username
     const string correctPassword = "admin123";  // Example password
 
-    printColor("\n=== Login Page ===\n","green");
-    printColor("Please enter your login credentials:\n","blue");
+    printColor("\n=== Login Page ===\n", "green");
+    printColor("Please enter your login credentials:\n", "blue");
 
-    printColor("\nEnter Username: ","yellow");
+    printColor("\nEnter Username: ", "yellow");
     cin >> username;
 
-    printColor("Enter Password: ","red");
-    cin >> password;
+    printColor("Enter Password: ", "red");
+
+    // Hide password input with asterisks
+    char ch;
+    password = "";
+    while (true) {
+        ch = _getch();  // Get character without displaying it
+        if (ch == 13)  // If Enter is pressed (ASCII code 13)
+            break;
+        else if (ch == 8) {  // If Backspace is pressed (ASCII code 8)
+            if (password.length() > 0) {
+                password.pop_back();  // Remove last character
+                cout << "\b \b";  // Delete the last asterisk displayed
+            }
+        } else {
+            password += ch;  // Add character to password
+            cout << "*";  // Display asterisk
+        }
+    }
 
     // Check if the credentials are correct
     if (username == correctUsername && password == correctPassword) {
