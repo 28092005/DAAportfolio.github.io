@@ -60,46 +60,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #3498db; /* Blue color for the heading */
-            text-align: center;
-        }
-        .about-text {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            font-size: 1.2em;
-        }
-        .highlight {
-            color: #e74c3c; /* Red color for the major */
-            font-weight: bold;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+   
 </head>
 <body>
     <div class="container">
